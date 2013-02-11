@@ -18,17 +18,19 @@
 		86E950D716C8B93F000E5A7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E950D616C8B93F000E5A7D /* Default-568h@2x.png */; };
 		86E950DA16C8B93F000E5A7D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E950D816C8B93F000E5A7D /* MainStoryboard.storyboard */; };
 		86E950DD16C8B93F000E5A7D /* UGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E950DC16C8B93F000E5A7D /* UGViewController.m */; };
+		86E950E516C8BA0D000E5A7D /* undergroundLarger.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E950E416C8BA0D000E5A7D /* undergroundLarger.png */; };
+		86E950E716C8BB08000E5A7D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E950E616C8BB08000E5A7D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86E950BD16C8B93F000E5A7D /* Underground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Underground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E950BD16C8B93F000E5A7D /* UndergroundNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndergroundNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E950C016C8B93F000E5A7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86E950C216C8B93F000E5A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86E950C416C8B93F000E5A7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		86E950C816C8B93F000E5A7D /* Underground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Underground-Info.plist"; sourceTree = "<group>"; };
+		86E950C816C8B93F000E5A7D /* UndergroundNetwork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UndergroundNetwork-Info.plist"; sourceTree = "<group>"; };
 		86E950CA16C8B93F000E5A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86E950CC16C8B93F000E5A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86E950CE16C8B93F000E5A7D /* Underground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Underground-Prefix.pch"; sourceTree = "<group>"; };
+		86E950CE16C8B93F000E5A7D /* UndergroundNetwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UndergroundNetwork-Prefix.pch"; sourceTree = "<group>"; };
 		86E950CF16C8B93F000E5A7D /* UGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UGAppDelegate.h; sourceTree = "<group>"; };
 		86E950D016C8B93F000E5A7D /* UGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UGAppDelegate.m; sourceTree = "<group>"; };
 		86E950D216C8B93F000E5A7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		86E950D916C8B93F000E5A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		86E950DB16C8B93F000E5A7D /* UGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UGViewController.h; sourceTree = "<group>"; };
 		86E950DC16C8B93F000E5A7D /* UGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UGViewController.m; sourceTree = "<group>"; };
+		86E950E416C8BA0D000E5A7D /* undergroundLarger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undergroundLarger.png; sourceTree = "<group>"; };
+		86E950E616C8BB08000E5A7D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		86E950B416C8B93F000E5A7D = {
 			isa = PBXGroup;
 			children = (
+				86E950E616C8BB08000E5A7D /* icon.png */,
 				86E950C616C8B93F000E5A7D /* Underground */,
 				86E950BF16C8B93F000E5A7D /* Frameworks */,
 				86E950BE16C8B93F000E5A7D /* Products */,
@@ -65,7 +70,7 @@
 		86E950BE16C8B93F000E5A7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86E950BD16C8B93F000E5A7D /* Underground.app */,
+				86E950BD16C8B93F000E5A7D /* UndergroundNetwork.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +88,7 @@
 		86E950C616C8B93F000E5A7D /* Underground */ = {
 			isa = PBXGroup;
 			children = (
+				86E950E316C8BA0D000E5A7D /* media */,
 				86E950CF16C8B93F000E5A7D /* UGAppDelegate.h */,
 				86E950D016C8B93F000E5A7D /* UGAppDelegate.m */,
 				86E950D816C8B93F000E5A7D /* MainStoryboard.storyboard */,
@@ -96,10 +102,10 @@
 		86E950C716C8B93F000E5A7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				86E950C816C8B93F000E5A7D /* Underground-Info.plist */,
+				86E950C816C8B93F000E5A7D /* UndergroundNetwork-Info.plist */,
 				86E950C916C8B93F000E5A7D /* InfoPlist.strings */,
 				86E950CC16C8B93F000E5A7D /* main.m */,
-				86E950CE16C8B93F000E5A7D /* Underground-Prefix.pch */,
+				86E950CE16C8B93F000E5A7D /* UndergroundNetwork-Prefix.pch */,
 				86E950D216C8B93F000E5A7D /* Default.png */,
 				86E950D416C8B93F000E5A7D /* Default@2x.png */,
 				86E950D616C8B93F000E5A7D /* Default-568h@2x.png */,
@@ -107,12 +113,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86E950E316C8BA0D000E5A7D /* media */ = {
+			isa = PBXGroup;
+			children = (
+				86E950E416C8BA0D000E5A7D /* undergroundLarger.png */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86E950BC16C8B93F000E5A7D /* Underground */ = {
+		86E950BC16C8B93F000E5A7D /* UndergroundNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86E950E016C8B93F000E5A7D /* Build configuration list for PBXNativeTarget "Underground" */;
+			buildConfigurationList = 86E950E016C8B93F000E5A7D /* Build configuration list for PBXNativeTarget "UndergroundNetwork" */;
 			buildPhases = (
 				86E950B916C8B93F000E5A7D /* Sources */,
 				86E950BA16C8B93F000E5A7D /* Frameworks */,
@@ -122,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = Underground;
+			name = UndergroundNetwork;
 			productName = Underground;
-			productReference = 86E950BD16C8B93F000E5A7D /* Underground.app */;
+			productReference = 86E950BD16C8B93F000E5A7D /* UndergroundNetwork.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +151,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jon Como";
 			};
-			buildConfigurationList = 86E950B816C8B93F000E5A7D /* Build configuration list for PBXProject "Underground" */;
+			buildConfigurationList = 86E950B816C8B93F000E5A7D /* Build configuration list for PBXProject "UndergroundNetwork" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86E950BC16C8B93F000E5A7D /* Underground */,
+				86E950BC16C8B93F000E5A7D /* UndergroundNetwork */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +178,8 @@
 				86E950D516C8B93F000E5A7D /* Default@2x.png in Resources */,
 				86E950D716C8B93F000E5A7D /* Default-568h@2x.png in Resources */,
 				86E950DA16C8B93F000E5A7D /* MainStoryboard.storyboard in Resources */,
+				86E950E516C8BA0D000E5A7D /* undergroundLarger.png in Resources */,
+				86E950E716C8BB08000E5A7D /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +278,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Underground/Underground-Prefix.pch";
-				INFOPLIST_FILE = "Underground/Underground-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Underground/UndergroundNetwork-Prefix.pch";
+				INFOPLIST_FILE = "Underground/UndergroundNetwork-Info.plist";
+				PRODUCT_NAME = UndergroundNetwork;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,9 +289,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Underground/Underground-Prefix.pch";
-				INFOPLIST_FILE = "Underground/Underground-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Underground/UndergroundNetwork-Prefix.pch";
+				INFOPLIST_FILE = "Underground/UndergroundNetwork-Info.plist";
+				PRODUCT_NAME = UndergroundNetwork;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86E950B816C8B93F000E5A7D /* Build configuration list for PBXProject "Underground" */ = {
+		86E950B816C8B93F000E5A7D /* Build configuration list for PBXProject "UndergroundNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86E950DE16C8B93F000E5A7D /* Debug */,
@@ -292,7 +308,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86E950E016C8B93F000E5A7D /* Build configuration list for PBXNativeTarget "Underground" */ = {
+		86E950E016C8B93F000E5A7D /* Build configuration list for PBXNativeTarget "UndergroundNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86E950E116C8B93F000E5A7D /* Debug */,
